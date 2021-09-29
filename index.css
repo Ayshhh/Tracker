@@ -10,9 +10,25 @@ body {
     flex-direction: column;
     justify-content: center;
     align-items: center; 
-    background: #F7FFF7;  
-    
+    background-color: ivory;
+}
 
+
+.heading .inner {
+display: table;
+text-align: center;
+height: 70vh;
+padding-top:50px;
+
+}
+
+.balance-container{
+text-align: center;
+}
+
+img{
+width: 500px;
+height: auto;
 }
 
 #selectedmonth{
@@ -26,9 +42,10 @@ body {
 
 h2 {
     font-size: 1.2em;
-    
+    font-weight: bold;
     margin-bottom: 10px;
 }
+
 
 .balance-container #balance #monthlybalance{
     font-size: 1.5em;
